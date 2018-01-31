@@ -1,7 +1,15 @@
 {
-  "name": "chai-maglev-helpers",
-  "version": "0.2.0",
+  "name": "@viadeo-fcms/chai-maglev-helpers",
+  "version": "0.2.1",
   "description": "Helpers for testing Locomotive helpers with the Chai assertion library.",
+  "main": "./lib",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viadeo/chai-maglev-helpers.git"
+  },
   "keywords": [
     "chai",
     "maglev",
@@ -13,30 +21,13 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/chai-maglev-helpers.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/chai-maglev-helpers/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./lib",
-  "dependencies": {
-  },
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "chai": "3.5.0",
+    "mocha": "2.3.4"
   },
   "engines": {
-    "node": "*"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    "node": "8.9.4"
   }
 }

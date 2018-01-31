@@ -9,6 +9,9 @@
 Helpers for testing [Locomotive](http://locomotivejs.org/) helpers with the
 [Chai](http://chaijs.com/) assertion library.
 
+Fork from https://github.com/jaredhanson/chai-locomotive-helpers
+Jared Hanson (jaredhanson@gmail.com) - http://www.jaredhanson.net/
+
 ## Install
 
     $ npm install chai-locomotive-helpers
