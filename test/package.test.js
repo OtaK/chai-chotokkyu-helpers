@@ -1,11 +1,11 @@
 /* global describe, it, expect */
 
-var maglev = require('..');
+var chotokkyu = require('..');
 
-describe('chai-maglev-function', function() {
-  
+describe('chai-chotokkyu-function', function() {
+
   it('should export function', function() {
-    expect(maglev).to.be.an('function');
+    expect(chotokkyu).to.be.an('function');
   });
-  
+
 });
